@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7189C831A6D7AA400FB7481 /* Selenium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7189C781A6D7A8E00FB7481 /* Selenium.framework */; };
+		C7ABBE5B1A8D1E71005F0EB7 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7ABBE5A1A8D1E71005F0EB7 /* Enums.swift */; };
+		C7EF6E8C1A6D76BA00692A96 /* SeleniumSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EF6E8B1A6D76BA00692A96 /* SeleniumSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7EF6E921A6D76BA00692A96 /* SeleniumSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EF6E861A6D76BA00692A96 /* SeleniumSwift.framework */; };
+		C7EF6E991A6D76BA00692A96 /* SeleniumSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EF6E981A6D76BA00692A96 /* SeleniumSwiftTests.swift */; };
+		C7EF6EA81A6D76EC00692A96 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7EF6EA71A6D76EC00692A96 /* Status.swift */; };
+		C7F10FCA1A85680A0030F026 /* By.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F10FC91A85680A0030F026 /* By.swift */; };
+		C7F10FCC1A856BC30030F026 /* Capabilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7F10FCB1A856BC30030F026 /* Capabilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7189C771A6D7A8E00FB7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36BB380116F268C2003A46FD;
+			remoteInfo = Selenium;
+		};
+		C7189C791A6D7A8E00FB7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 36BB381916F268C2003A46FD;
+			remoteInfo = SeleniumTests;
+		};
+		C7189C7B1A6D7A8E00FB7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DB922EB218BC803C005C2F1E;
+			remoteInfo = libSelenium;
+		};
+		C7189C7D1A6D7A8E00FB7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C77BC82D19FFC16B008979E5;
+			remoteInfo = SeleniumForiOS;
+		};
+		C7189C7F1A6D7A8E00FB7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C77BC83719FFC16B008979E5;
+			remoteInfo = SeleniumForiOSTests;
+		};
+		C7189C811A6D7A9300FB7481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 36BB380016F268C2003A46FD;
+			remoteInfo = Selenium;
+		};
+		C7EF6E931A6D76BA00692A96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7EF6E7D1A6D76BA00692A96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7EF6E851A6D76BA00692A96;
+			remoteInfo = SeleniumSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7ABBE5A1A8D1E71005F0EB7 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		C7EF6E861A6D76BA00692A96 /* SeleniumSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SeleniumSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF6E8A1A6D76BA00692A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EF6E8B1A6D76BA00692A96 /* SeleniumSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeleniumSwift.h; sourceTree = "<group>"; };
+		C7EF6E911A6D76BA00692A96 /* SeleniumSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeleniumSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7EF6E971A6D76BA00692A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7EF6E981A6D76BA00692A96 /* SeleniumSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleniumSwiftTests.swift; sourceTree = "<group>"; };
+		C7EF6EA71A6D76EC00692A96 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Selenium.xcodeproj; path = "../submodules/selenium-objective-c/Selenium/Selenium.xcodeproj"; sourceTree = "<group>"; };
+		C7F10FC91A85680A0030F026 /* By.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = By.swift; sourceTree = "<group>"; };
+		C7F10FCB1A856BC30030F026 /* Capabilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Capabilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7EF6E821A6D76BA00692A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7189C831A6D7AA400FB7481 /* Selenium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF6E8E1A6D76BA00692A96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF6E921A6D76BA00692A96 /* SeleniumSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7189C701A6D7A8E00FB7481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7189C781A6D7A8E00FB7481 /* Selenium.framework */,
+				C7189C7A1A6D7A8E00FB7481 /* SeleniumTests.xctest */,
+				C7189C7C1A6D7A8E00FB7481 /* liblibSelenium.a */,
+				C7189C7E1A6D7A8E00FB7481 /* SeleniumForiOS.framework */,
+				C7189C801A6D7A8E00FB7481 /* SeleniumForiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EF6E7C1A6D76BA00692A96 = {
+			isa = PBXGroup;
+			children = (
+				C7EF6E881A6D76BA00692A96 /* SeleniumSwift */,
+				C7EF6E951A6D76BA00692A96 /* SeleniumSwiftTests */,
+				C7EF6E871A6D76BA00692A96 /* Products */,
+				C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		C7EF6E871A6D76BA00692A96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF6E861A6D76BA00692A96 /* SeleniumSwift.framework */,
+				C7EF6E911A6D76BA00692A96 /* SeleniumSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7EF6E881A6D76BA00692A96 /* SeleniumSwift */ = {
+			isa = PBXGroup;
+			children = (
+				C7F10FC41A8567C00030F026 /* Types */,
+				C7EF6E8B1A6D76BA00692A96 /* SeleniumSwift.h */,
+				C7EF6E891A6D76BA00692A96 /* Supporting Files */,
+			);
+			path = SeleniumSwift;
+			sourceTree = "<group>";
+		};
+		C7EF6E891A6D76BA00692A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF6E8A1A6D76BA00692A96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7EF6E951A6D76BA00692A96 /* SeleniumSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF6E981A6D76BA00692A96 /* SeleniumSwiftTests.swift */,
+				C7EF6E961A6D76BA00692A96 /* Supporting Files */,
+			);
+			path = SeleniumSwiftTests;
+			sourceTree = "<group>";
+		};
+		C7EF6E961A6D76BA00692A96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7EF6E971A6D76BA00692A96 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7F10FC41A8567C00030F026 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				C7F10FC91A85680A0030F026 /* By.swift */,
+				C7F10FCB1A856BC30030F026 /* Capabilities.swift */,
+				C7ABBE5A1A8D1E71005F0EB7 /* Enums.swift */,
+				C7EF6EA71A6D76EC00692A96 /* Status.swift */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C7EF6E831A6D76BA00692A96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF6E8C1A6D76BA00692A96 /* SeleniumSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C7EF6E851A6D76BA00692A96 /* SeleniumSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EF6E9C1A6D76BA00692A96 /* Build configuration list for PBXNativeTarget "SeleniumSwift" */;
+			buildPhases = (
+				C7EF6E811A6D76BA00692A96 /* Sources */,
+				C7EF6E821A6D76BA00692A96 /* Frameworks */,
+				C7EF6E831A6D76BA00692A96 /* Headers */,
+				C7EF6E841A6D76BA00692A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7189C821A6D7A9300FB7481 /* PBXTargetDependency */,
+			);
+			name = SeleniumSwift;
+			productName = SeleniumSwift;
+			productReference = C7EF6E861A6D76BA00692A96 /* SeleniumSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7EF6E901A6D76BA00692A96 /* SeleniumSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EF6E9F1A6D76BA00692A96 /* Build configuration list for PBXNativeTarget "SeleniumSwiftTests" */;
+			buildPhases = (
+				C7EF6E8D1A6D76BA00692A96 /* Sources */,
+				C7EF6E8E1A6D76BA00692A96 /* Frameworks */,
+				C7EF6E8F1A6D76BA00692A96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7EF6E941A6D76BA00692A96 /* PBXTargetDependency */,
+			);
+			name = SeleniumSwiftTests;
+			productName = SeleniumSwiftTests;
+			productReference = C7EF6E911A6D76BA00692A96 /* SeleniumSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7EF6E7D1A6D76BA00692A96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Appium;
+				TargetAttributes = {
+					C7EF6E851A6D76BA00692A96 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					C7EF6E901A6D76BA00692A96 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = C7EF6E801A6D76BA00692A96 /* Build configuration list for PBXProject "SeleniumSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7EF6E7C1A6D76BA00692A96;
+			productRefGroup = C7EF6E871A6D76BA00692A96 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C7189C701A6D7A8E00FB7481 /* Products */;
+					ProjectRef = C7EF6EAC1A6D79DF00692A96 /* Selenium.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C7EF6E851A6D76BA00692A96 /* SeleniumSwift */,
+				C7EF6E901A6D76BA00692A96 /* SeleniumSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C7189C781A6D7A8E00FB7481 /* Selenium.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Selenium.framework;
+			remoteRef = C7189C771A6D7A8E00FB7481 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7189C7A1A6D7A8E00FB7481 /* SeleniumTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SeleniumTests.xctest;
+			remoteRef = C7189C791A6D7A8E00FB7481 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7189C7C1A6D7A8E00FB7481 /* liblibSelenium.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibSelenium.a;
+			remoteRef = C7189C7B1A6D7A8E00FB7481 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7189C7E1A6D7A8E00FB7481 /* SeleniumForiOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SeleniumForiOS.framework;
+			remoteRef = C7189C7D1A6D7A8E00FB7481 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C7189C801A6D7A8E00FB7481 /* SeleniumForiOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SeleniumForiOSTests.xctest;
+			remoteRef = C7189C7F1A6D7A8E00FB7481 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7EF6E841A6D76BA00692A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF6E8F1A6D76BA00692A96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7EF6E811A6D76BA00692A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F10FCA1A85680A0030F026 /* By.swift in Sources */,
+				C7EF6EA81A6D76EC00692A96 /* Status.swift in Sources */,
+				C7ABBE5B1A8D1E71005F0EB7 /* Enums.swift in Sources */,
+				C7F10FCC1A856BC30030F026 /* Capabilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7EF6E8D1A6D76BA00692A96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7EF6E991A6D76BA00692A96 /* SeleniumSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7189C821A6D7A9300FB7481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Selenium;
+			targetProxy = C7189C811A6D7A9300FB7481 /* PBXContainerItemProxy */;
+		};
+		C7EF6E941A6D76BA00692A96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7EF6E851A6D76BA00692A96 /* SeleniumSwift */;
+			targetProxy = C7EF6E931A6D76BA00692A96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7EF6E9A1A6D76BA00692A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C7EF6E9B1A6D76BA00692A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7EF6E9D1A6D76BA00692A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SeleniumSwift-blrnzinzjwxterebxqrrmuboyejy/Build/Products/Debug",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SeleniumSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULE_NAME = Selenium;
+				MODULE_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7EF6E9E1A6D76BA00692A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SeleniumSwift-blrnzinzjwxterebxqrrmuboyejy/Build/Products/Debug",
+				);
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SeleniumSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MODULE_NAME = Selenium;
+				MODULE_VERSION = 1.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+			};
+			name = Release;
+		};
+		C7EF6EA01A6D76BA00692A96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeleniumSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7EF6EA11A6D76BA00692A96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeleniumSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7EF6E801A6D76BA00692A96 /* Build configuration list for PBXProject "SeleniumSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF6E9A1A6D76BA00692A96 /* Debug */,
+				C7EF6E9B1A6D76BA00692A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EF6E9C1A6D76BA00692A96 /* Build configuration list for PBXNativeTarget "SeleniumSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF6E9D1A6D76BA00692A96 /* Debug */,
+				C7EF6E9E1A6D76BA00692A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7EF6E9F1A6D76BA00692A96 /* Build configuration list for PBXNativeTarget "SeleniumSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7EF6EA01A6D76BA00692A96 /* Debug */,
+				C7EF6EA11A6D76BA00692A96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7EF6E7D1A6D76BA00692A96 /* Project object */;
+}
